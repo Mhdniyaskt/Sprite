@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.image-overlay img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.offcanvas-body {
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+  }
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+    height: 600px; 
+    object-fit: cover;
+    border-radius: 20px; 
+  }
+  .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px; 
+  }
+  .item .card {
+    border-radius: 1em;
+  }
+  .card img{
+    border-radius:1em ;
+  }
+  .icons i{
+    color: white;
+  }
+  .list-unstyled li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
